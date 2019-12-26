@@ -7,7 +7,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/cloud?useUnicode=true&characterEncoding=UTF8&useSSL=false&autoReconnect=true
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: root
+    password: anshare
     max-idle: 10
     min-idle: 5
     test-on-borrow: false
@@ -30,8 +30,8 @@ spring:
   rabbitmq:
     host: 127.0.0.1
     port: 5672
-    username: yukong
-    password: x19961010
+    username: root
+    password: anshare
   http:
     multipart:
       max-file-size: 1000MB
